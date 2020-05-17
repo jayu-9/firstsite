@@ -1,0 +1,153 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+span{
+	align-content: center;
+}
+body {
+  padding-top: 50px;
+ 
+}
+ul.nav,.jumbotron h1, .btn-lg,strong, .homepage h2,h3{
+   /*font-family: 'Roboto', sans-serif;
+    */font-family: 'Arvo', courier,serif;  
+
+  }
+
+ ul.nav{
+ 	font-size: 13px;
+ }
+.jumbotron{
+	text-align: center;
+	background-image: url("../images/heroimage.jpg"); 
+	color: white;
+	
+
+}
+
+.jumbotron h1{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.jumbotron p{
+	margin-bottom:30px;
+	/*font-weight: 500;*/
+	padding: 0 50px;
+	/*font-size: 22px;*/
+
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-lg{
+	font-size: 36px;
+
+
+}
+#getinvolved
+{
+	background-color: #eee;
+}
+ .homepage{
+ 	text-align: center;
+ 	padding-bottom: 30px;
+ 	padding-top: 30px;
+
+ }
+   .homepage h2,h3{
+  	color: #e74c3c;
+  	text-align: center;
+    text-transform: uppercase;
+  }
+  .homepage p{
+  	font-size: 21px;
+  	font-weight: 300;
+  }
+  .homepage h2{
+  	font-size: 30px;
+  }
+.homepage h3{
+	font-size:26px;
+}
+/*strong{
+	font-weight: 900;
+}
+*/
+ footer{
+ 	background-color: #f74c3c;
+ 	padding-bottom: 30px;
+ 	padding-top:150px;
+ }
+ .homepage a{
+ 	color:#e74c3c;
+ }
+ .hompage a:focus ,.homepage a:hover{
+ 	text-decoration: none;
+ 	color: #e74c3c;
+ 	opacity: .7;
+ }
+ .homepage hr{
+ 	border-top: 1px solid #e74c3c;
+    margin-top: 15px;
+    width: 160px;
+}
+
+
+
+/*resposive styling with media queries*/
+/*min width : 1198= it wil hold the style
+for greater than 1198px screen
+or equal to 1198  min is >=;
+max width it will hold the style for 
+less than 1198px screen or equal to 
+1198 px screen. max is <= */
+@media (max-width: 1198px) 
+{
+       .jumbotron h1{
+          font-size: 56px;
+       	  margin-bottom: 30px;
+       }
+}
+@media (max-width: 991px) 
+{
+       .jumbotron h1{
+          font-size: 48px;
+       	  margin-bottom: 24px;
+       }
+       .jumbotron p{
+       	 font-size: 19px;
+       }
+       .btn{
+       	margin-top: 12px;
+       	margin-bottom: 15px;
+       }
+       .btn-lg {
+         font-size: 34px;
+        }
+      /* .navbar>.container .navbar-brand, 
+       .navbar>.container-fluid .navbar-brand 
+       {
+    	  margin-left: -120px;
+       } bhot mehnat*/
+ }
+  @media (max-width: 767px) 
+{
+       .jumbotron h1{
+          font-size: 24px;
+       	  margin-bottom: 22px;
+       }
+       .jumbotron p{
+       	 font-size: 16px;
+       	
+       }
+       .homepage p{
+       	 font-size:18px;
+       }
+       .homepage h2{
+       	 margin-top:20px;
+       }
+       .btn-lg {
+         font-size: 19px;
+         margin-bottom: 2px;
+         margin-top: 4px;
+        }
+
+}
+
