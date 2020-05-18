@@ -7,8 +7,7 @@ body {
  
 }
 ul.nav,.jumbotron h1, .btn-lg,strong, .homepage h2,h3{
-   /*font-family: 'Roboto', sans-serif;
-    */font-family: 'Arvo', courier,serif;  
+   font-family: 'Arvo', courier,serif;  
 
   }
 
