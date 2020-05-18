@@ -34,6 +34,9 @@ ul.nav,.jumbotron h1, .btn-lg,strong, .homepage h2,h3{
 
 	font-family: 'Roboto', sans-serif;
 }
+.jumbotron h1 {
+   font-family: 'Arvo', courier,serif;  
+  }
 
 .btn-lg{
 	font-size: 36px;
